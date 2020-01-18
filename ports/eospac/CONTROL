@@ -1,0 +1,5 @@
+Source: eospac
+Version: 6.4.0
+Homepage: https://github.com/KineticTheory/eospac6
+Description: A library for accessing tabular Equation of State data.
+Build-Depends:
