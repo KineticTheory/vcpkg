@@ -18,7 +18,7 @@ vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO KineticTheory/eospac6
     REF eospac-6.4.0
-    SHA512 ddab0bcb5f63d2dca8ba0cb4b8fa076f5d9ba5e3c1eb97be3e109597a25356210f6fdbdd935d9adcc8a94a45a3a0b05a1ee4bb621935a7b001303defff542417
+    SHA512  99d6ffea2a1665c69e3c569ae484365435a74f528f3ad126454251b4329a8d0530047f014a3ba758b43c21fbf72e077fe67e3afab8011261b22ae57e673f3aa6
     HEAD_REF develop
     #PATCHES
     #  fix-compile-error-uwp.patch
