@@ -1,8 +1,10 @@
+vcpkg_fail_port_install(ON_ARCH "arm" "arm64" ON_TARGET "uwp")
+
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
-    REPO intel/tbb
-    REF 427c252e0bb9e191767a62d8a744b21950c343f6 # 2020_U1
-    SHA512 b61107a751363f6acbf31297fc1232314a41622d6e89fe87dedb34a11c9a1d04dd1be724e7a6021e889342e7a453b6605523560441460716933817dffd4a4191
+    REPO oneapi-src/oneTBB
+    REF eca91f16d7490a8abfdee652dadf457ec820cc37 # 2020_U3
+    SHA512 7144e1dc68304b5358e6ea330431b6f0c61fadb147efa353a5b242777d6fabf7b8cf99b79cffb51b49b911dd17a9f1879619d6eebdf319f23ec3235c89cffc25
     HEAD_REF tbb_2019
     PATCHES
         fix-static-build.patch

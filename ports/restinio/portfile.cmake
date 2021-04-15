@@ -1,8 +1,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO stiffstream/restinio
-    REF 1b6fdc114991ccc726b1b90153eee535106a6367 # v.0.6.4
-    SHA512 68a735502f8f10e20e6caa5ed918166dc8448e5a0dfa3c6ee0cf3d43768ef7a27ffbfbe46c440dce9b846e5e6762818a9614c2d48aa67dbc03adb1854b28928b
+    REF 7743d63325ad20ac87331c110f064f5f55defb40 # v.0.6.11
+    SHA512 27f5f217184b4912fc6ae7194f8f2e126b0b7bbc2e19b63c7b44d990be6544a799dce8c8a221a4079fd44b4119ba63c29775d12a2d86e9f1affe0b057d8ad302
 )
 
 vcpkg_configure_cmake(
